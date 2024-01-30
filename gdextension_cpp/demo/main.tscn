@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://br4encfo3fti6"]
+
+[node name="main" type="Node"]
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="DragableWord" type="DragableWord" parent="Control"]
+layout_mode = 0
+offset_top = 7140.0
+offset_right = 8.0
+offset_bottom = 7148.0

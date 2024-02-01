@@ -10,6 +10,5 @@ offset_bottom = 40.0
 
 [node name="DragableWord" type="DragableWord" parent="Control"]
 layout_mode = 0
-offset_top = 7140.0
-offset_right = 8.0
-offset_bottom = 7148.0
+offset_right = 224.0
+offset_bottom = 142.0

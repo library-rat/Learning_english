@@ -11,6 +11,8 @@ class DragableWord : public Button {
 private:
 	double speed;
 	bool selected;
+	void _on_button_up();
+	void _on_button_down();
 
 protected:
 	static void _bind_methods();
@@ -26,7 +28,6 @@ public:
 
 	double get_speed()const ;
 
-	void _on_pressed();
 };
 
 }

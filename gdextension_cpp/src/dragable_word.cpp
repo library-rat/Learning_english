@@ -30,8 +30,9 @@ DragableWord::~DragableWord(){
 
 void DragableWord::_process(double delta){
     if (!Engine::get_singleton()->is_editor_hint()){
-        if (selected){
+        if (this->is_pressed()){
             set_position(get_global_mouse_position()-this->get_size()/2);
+            
         }
         Vector2 new_position = get_position() + Vector2(0,speed);
         set_position(new_position);
